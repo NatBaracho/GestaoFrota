@@ -3,8 +3,7 @@
     // A classe Carro representa um carro comum.
     // Ela "herda" tudo da classe Veiculo, ou seja, aproveita o que já existe lá.
     // O que for diferente ou específico de um carro, colocamos aqui.
-    public class Carro(string placa, string modelo, int ano, decimal valorDiariaBase, int quantidadePortas)
-        : Veiculo(placa, modelo, ano, valorDiariaBase)
+    public class Carro(string placa, string modelo, int ano, decimal valorDiariaBase, int quantidadePortas) : Veiculo(placa, modelo, ano, valorDiariaBase)
     {
         // Quantidade de portas do carro.
         // Exemplo: 2 portas, 4 portas...
@@ -14,7 +13,7 @@
         // Todo carro tem um valor de diária (valorDiariaBase).
         // Depois multiplicamos pela quantidade de dias.
         // No final, adicionamos 10% de seguro obrigatório.
-        public override decimal CalcularCusntoAluguel(int dias)
+        public override decimal CalcularCustoAluguel(int dias)
         {
             decimal custoBase = ValorDiariaBase * dias;
             return custoBase + (custoBase * 0.10m); // Acrescenta 10% de seguro

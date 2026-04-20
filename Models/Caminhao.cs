@@ -14,7 +14,7 @@
         // 1. diária × dias
         // 2. adiciona 20% de seguro (caminhão tem seguro mais caro)
         // 3. adiciona uma taxa extra baseada na capacidade de carga
-        public override decimal CalcularCusntoAluguel(int dias)
+        public override decimal CalcularCustoAluguel(int dias)
         {
             // Parte principal do valor: diária × dias
             decimal custoBase = ValorDiariaBase * dias;

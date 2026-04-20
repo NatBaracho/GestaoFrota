@@ -59,7 +59,7 @@ namespace GestaoFrota.Models
 
         // Este método diz: "Toda classe filha deve explicar como calcula o custo do aluguel."
         // Cada tipo de veículo pode ter sua própria regra.
-        public abstract decimal CalcularCusntoAluguel(int dias);
+        public abstract decimal CalcularCustoAluguel(int dias);
 
         // Este método cria uma frase com as informações básicas do veículo.
         // As classes filhas podem mudar essa frase se quiserem.
