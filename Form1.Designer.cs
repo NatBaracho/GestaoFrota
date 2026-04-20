@@ -153,6 +153,7 @@
             btnAdicionar.TabIndex = 12;
             btnAdicionar.Text = "Adicionar Veículo";
             btnAdicionar.UseVisualStyleBackColor = true;
+            btnAdicionar.Click += btnAdicionar_Click_1;
             // 
             // btnRemover
             // 
@@ -163,6 +164,7 @@
             btnRemover.TabIndex = 13;
             btnRemover.Text = "Remover Selecionado";
             btnRemover.UseVisualStyleBackColor = true;
+            btnRemover.Click += btnRemover_Click_1;
             // 
             // dvgFrota
             // 
